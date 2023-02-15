@@ -768,7 +768,7 @@ img {
 
 .ourteam {
   background-color: var(--ourteam-background);
-  width: 100%;
+  margin: 0 auto;
 }
 
 .ourteam-title {
