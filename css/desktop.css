@@ -95,6 +95,7 @@
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
   }
 
   .hero-title {
@@ -156,6 +157,10 @@
   }
 
   /* <!-- ourteam style --> */
+
+  .ourteam {
+    max-width: 1440px;
+  }
 
   .ourteam-list {
     display: flex;
