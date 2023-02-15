@@ -1,0 +1,59 @@
+@media screen and (min-width: 480px) {
+  /* <!-- general style --> */
+
+  .container {
+    max-width: 428px;
+  }
+
+  /* <!-- modal style --> */
+
+  .modal {
+    width: 408px;
+  }
+
+  /* <!-- header style --> */
+
+  .header-mob-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .header-mob-link {
+    font-size: 36px;
+  }
+
+  .header-mob-address {
+    margin-bottom: 48px;
+  }
+
+  .header-mob-address-list {
+    gap: 40px;
+  }
+
+  .header-mob-address-item {
+    flex-basis: calc((100% - 40px) / 2);
+  }
+
+  .header-mob-tel {
+    font-size: 36px;
+  }
+
+  .header-mob-mail {
+    font-size: 20px;
+  }
+
+  .header-mob-soc-list {
+    gap: 56px;
+  }
+
+  /* <!-- main style --> */
+
+  .hero {
+    background-image: var(--hero-gra), url(../images/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--hero-gra), url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+}
